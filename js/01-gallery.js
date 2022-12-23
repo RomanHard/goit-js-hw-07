@@ -1,7 +1,7 @@
 import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
-const palletContainet = document.querySelector(`.gallery`);
+const palletContainet = document.querySelector(`div.gallery`);
 const cardMarup = createItems(galleryItems);
 palletContainet.insertAdjacentHTML(`beforeend`, cardMarup);
 
