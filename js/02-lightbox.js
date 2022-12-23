@@ -23,7 +23,7 @@ function makegalleryItems(items) {
 const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
-  scrollZoom: false,
+  scrollZoom: true,
 });
 
 lightbox.on("shown.simplelightbox", function () {
