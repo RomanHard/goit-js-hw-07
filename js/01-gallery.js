@@ -12,11 +12,11 @@ function createItems(galleryItems) {
     .map(({ preview, description, original }) => {
       return `
     <div class="gallery__item">
-      <a class="gallery__link" href="${preview}">
-        <img
+      <a class="gallery__link" href="${original}">
+        <img loading="lazy" width="354" height="240"
           class="gallery__image"
-          src="${original}"
-           data-source="${preview}"
+          src="${preview}"
+           data-source="${original}"
           alt="${description}"
         />
       </a>
